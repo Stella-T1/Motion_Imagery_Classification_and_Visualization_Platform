@@ -48,5 +48,3 @@ ts_args = dict(gfp=True, time_unit='s')
 topomap_args = dict(sensors=False, time_unit='s')
 
 analyze_evokeds(evokeds_list, conds, all_times, specific_times, ts_args, topomap_args, [0.08, 0.20])
-
-# %%
